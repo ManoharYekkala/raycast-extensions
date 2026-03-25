@@ -442,6 +442,7 @@
 /extensions/coze                                                    @chyroc
 /extensions/cpanel                                                  @xmok
 /extensions/cpf-cnpj-generator                                      @gstvds
+/extensions/craft-cms-docs                                          @bensomething
 /extensions/craftdocs                                               @sfkmk @kudrykv @mafredri @0x77dev
 /extensions/cran-e-search                                           @flaming-codes
 /extensions/cratecast                                               @gleich @BalliAsghar @sennav
@@ -506,6 +507,7 @@
 /extensions/dawa                                                    @SimonJ @pernielsentikaer
 /extensions/day-one                                                 @AntonNiklasson @bestemic
 /extensions/days-until-christmas                                    @MEGApixel23 @erics118 @jacpd @pernielsentikaer
+/extensions/days2                                                   @superment
 /extensions/db-schema-explorer                                      @SciSaif
 /extensions/dbt-documentation                                       @b-per
 /extensions/dbtCloud                                                @zsombor-flds
@@ -653,6 +655,7 @@
 /extensions/ember-api-documentation                                 @tdwesten
 /extensions/emissions-calculator                                    @andreaselia @pernielsentikaer
 /extensions/emoji                                                   @FezVrasta @sxn @maxdavid @sinasab @pernielsentikaer
+/extensions/emoji-kitchen                                           @coreyone @pernielsentikaer
 /extensions/emojify                                                 @ViGeng @ViGeng
 /extensions/emojis-com                                              @pondorasti
 /extensions/empty-screenshots                                       @chanceaclark
@@ -686,6 +689,7 @@
 /extensions/everything-search                                       @anastasiuspernat @LorryGailius @LorryGailius
 /extensions/evil-insult                                             @j3lte
 /extensions/evm-codes                                               @clabby
+/extensions/evm-toolkit                                             @imqdee
 /extensions/exa                                                     @thomaspaulmann
 /extensions/excalidraw                                              @slyguy5646 @pernielsentikaer
 /extensions/excel-formula-beautifier                                @oliverde8
@@ -828,7 +832,7 @@
 /extensions/gg-deals                                                @whitespacecode
 /extensions/gh-pic                                                  @xiangsanliu
 /extensions/ghost-docs                                              @royalfig
-/extensions/ghostty                                                 @JarryChung @FriendlyUsername @AlexIsMaking @mathisfoxius @JoaoGFdev
+/extensions/ghostty                                                 @JarryChung @FriendlyUsername @AlexIsMaking @degouville @mathisfoxius @JoaoGFdev @pernielsentikaer
 /extensions/ghq                                                     @konojunya @alinnow
 /extensions/gif-search                                              @josephschmitt @tmwrnr @j3lte @samuelkraft @ridemountainpig @Spookywy @seanparkross @YourMCGeek @thomaspaulmann @artisticmedic
 /extensions/gift-stardew-valley                                     @NaoRojas @myusualonewastaken
@@ -891,6 +895,7 @@
 /extensions/google-cloud-platform-search                            @klaa97 @edomora97 @hisomura @m-gentil
 /extensions/google-cloud-run                                        @BhavyaMuni
 /extensions/google-drive                                            @vishaltelangre @nametake @daniel-stoneuk
+/extensions/google-finance                                          @kylesamani
 /extensions/google-fonts                                            @GastroGeek @pernielsentikaer @xmok
 /extensions/google-lens                                             @ridemountainpig
 /extensions/google-maps-search                                      @ratoru @aeither @chrismessina @klaussner @krsntn
@@ -2475,7 +2480,7 @@
 /extensions/transmit                                                @kennonb @xmok
 /extensions/transport-nsw                                           @patbarlow
 /extensions/trek                                                    @opti21
-/extensions/trello                                                  @ChrisChinchilla @Jimmy-b36 @ChrisChinchilla @ajaypremshankar
+/extensions/trello                                                  @ChrisChinchilla @Jimmy-b36 @ChrisChinchilla @ajaypremshankar @ChrisChinchilla
 /extensions/trenit                                                  @gianpispi
 /extensions/trovu                                                   @georgjaehnig
 /extensions/trustmrr                                                @alexibuild
@@ -2689,6 +2694,7 @@
 /extensions/wled-controller                                         @Creative-koda-lab @danulqua
 /extensions/wol                                                     @bxb100 @sanjevirau
 /extensions/wolfram-alpha                                           @mathieudutour
+/extensions/woo-marketplace-search                                  @shameemreza
 /extensions/word-count                                              @itsmingjie @koayon @chrismessina @LitoMore @aryan-thatte
 /extensions/word-research                                           @0xdhrv
 /extensions/word-search                                             @RishabSwift @thomaspaulmann @j3lte

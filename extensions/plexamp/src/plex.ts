@@ -6,12 +6,13 @@ export {
   saveManagedAuthToken,
   saveSelectedLibrary,
   saveSelectedServer,
-  updateSavedServerConnection,
 } from "./plex-config";
 export { checkPlexAuthPin, createPlexAuthPin, discoverPlexServers } from "./plex-auth";
 export {
   getAlbumsForArtist,
+  getAlbumsForArtistPage,
   getArtists,
+  getArtistsPage,
   getAudioPlaylists,
   getLibraryStats,
   getMetadataByKey,
@@ -23,9 +24,11 @@ export {
   getSelectedLibrary,
   getTracksForAlbum,
   getTracksForPlaylist,
+  getTracksPage,
   resolveSelectedLibrary,
   searchLibrary,
 } from "./plex-library";
+export type { PageResult } from "./plex-library";
 export {
   clearPlayQueue,
   getPlayQueue,

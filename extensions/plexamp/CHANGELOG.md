@@ -1,8 +1,18 @@
 # Plexamp CHANGELOG
 
-## [Server Connection Fixes] - 2026-03-24
+## [Large Library Performance Fixes] - 2026-03-25
 
-- Fixed "All promises were rejected" error on Browse Library, Search Library, and Status commands when the saved server connection URL is unreachable by automatically re-discovering the server via plex.tv and trying all available connections.
+- Fixed "JS heap out of memory" crashes when browsing large music libraries by paginating all Plex API requests so no single XML response can exceed the Raycast worker memory limit.
+- Fixed playlist section resolution causing excessive memory usage by removing the N+1 metadata lookup per playlist and filtering by the explicit library section key instead.
+- Added paginated API fetching for artists, albums, tracks, and playlists so each request loads a bounded page of results.
+- Added smart track loading for playlists and albums: lists with 1,000 or fewer tracks load fully for scoped client-side filtering; larger lists paginate and fall back to library-wide server-side search.
+- Added server-side search fallback for large playlist track lists using the Plex `/hubs/search` endpoint.
+- Added play queue windowing so the Now Playing view loads at most 200 tracks around the current position instead of the entire queue.
+- Added `@raycast/utils` dependency for `usePromise` pagination support.
+
+## [Server Connection Fixes] - 2026-03-25
+
+- Fixed "All promises were rejected" error on Browse Library, Search Library, and Status commands by saving the verified working connection URL from library selection instead of an untested preferred URL.
 - Fixed the Now Playing Menubar not showing track information by using the server address from Plexamp's timeline response instead of the saved server URL.
 
 ## [Library Selection Fixes] - 2026-03-24
